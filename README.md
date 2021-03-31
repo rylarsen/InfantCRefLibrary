@@ -5,15 +5,15 @@ InfantCRefLibrary
 AUTHOR : Ryan Larsen
 Copyright (c) 2021, University of Illinois at Urbana-Champaign. All rights reserved.
 
+This code can be used to compare user-provided Magnetic Resonance Spectroscopy (MRS) data from infants from birth to four months of age with a library of typically developing infants.  They also allows exploration of our database on 181 MRS scans.
+
+The app and the calculations it performs are described in our publication: "Quantification of Magnetic Resonance Spectroscopy data using a combined reference: Application in typically developing infants" in NMR in Biomedicine by Larsen RJ, et al, 2021.
+
+A demonstration video of the app can be found here: https://mediaspace.illinois.edu/media/t/1_sl2kjnkk
+
 "AppSourceCode.mlapp" is the source code for an app that has been shared at the Illinois Databank: https://doi.org/10.13012/B2IDB-3548139_V1. 
   
 "run_script_matlab.m" is a Matlab script that be used to perform the same functions as the app, but without a GUI interface.
-
-The app and script allows for the comparison of user-provided Magnetic Resonance Spectroscopy (MRS) data from infants from birth to four months of age with a library of typically developing infants.  They also allows exploration of our database on 181 MRS scans.
-
-The app and the calculations it performs are described in our recent publication: "Quantification of Magnetic Resonance Spectroscopy data using a combined reference: Application in typically developing infants" in NMR in Biomedicine by Larsen RJ, et al, 2021.
-
-A demonstration video of the app can be found here: https://mediaspace.illinois.edu/media/t/1_sl2kjnkk
 
 The app and the script require normative data used for calculations and plots. This data is contained in the "App_data.mat" file found in the "Combined_Data" directory at the Illinois DataBank: https://doi.org/10.13012/B2IDB-3548139_V1.  Place this data file in the same folder as the app and/or script.  
 
